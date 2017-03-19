@@ -34,6 +34,7 @@ namespace Bigword.Winforms
         private void button3_Click(object sender, EventArgs e)
         {
             lblCompanyname.Text = "Company name is : " + System.Configuration.ConfigurationManager.AppSettings["CompanyName"];
+            MessageBox.Show("Done");
         }
     }
 }
